@@ -1,0 +1,30 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(541,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой.
+  Lection0124.cpp
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(10,2): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(11,3): error C2065: MOV: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(11,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "EAX"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(11,7): error C2065: EAX: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(12,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "MOV"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(12,3): error C2065: MOV: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(12,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "EAX"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(12,7): error C2065: EAX: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(13,3): error C2065: IMUL: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(13,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "EAX"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(13,8): error C2065: EAX: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(14,3): error C2065: IMUL: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(14,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ECX"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(14,8): error C2065: ECX: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(15,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "SUB"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(15,3): error C2065: SUB: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(15,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "EAX"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(15,7): error C2065: EAX: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(15,12): error C2065: ECX: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(16,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ADD"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(16,3): error C2065: ADD: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(16,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "EAX"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(16,7): error C2065: EAX: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(17,3): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "MOV"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(17,3): error C2065: MOV: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(17,7): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "y"
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(17,10): error C2065: EAX: необъявленный идентификатор
+C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Lection0124\Lection0124.cpp(18,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"

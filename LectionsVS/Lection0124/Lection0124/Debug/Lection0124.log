@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(541,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой.
+  Lection0124.cpp
+  Lection0124.vcxproj -> C:\Temp\!_000000000_Ispp21\Lections\LectionsVS\Lection0124\Debug\Lection0124.exe
