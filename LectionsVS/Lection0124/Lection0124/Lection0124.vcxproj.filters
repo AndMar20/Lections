@@ -19,4 +19,12 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Hello.asm">
+      <Filter>Исходные файлы</Filter>
+    </MASM>
+    <MASM Include="hello1.asm">
+      <Filter>Исходные файлы</Filter>
+    </MASM>
+  </ItemGroup>
 </Project>
