@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -19,15 +20,23 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
+import androidx.compose.foundation.selection.selectable
+import androidx.compose.foundation.selection.selectableGroup
+import androidx.compose.material3.Checkbox
+import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.a020525androidapp.ui.theme._020525AndroidAppTheme
+import com.example.a020525androidapp.ui.theme.screens.AuthorizationPreview
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,6 +44,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             _020525AndroidAppTheme {
+                Components()
             }
         }
     }
@@ -88,11 +98,50 @@ fun NeedSize(){
     }
 }
 
+@Composable
+fun Components() {
+    Column(Modifier.padding(30.dp).width(IntrinsicSize.Max)) {
+        val checkedState = remember { mutableStateOf(true) }
+        Checkbox(
+            checked = checkedState.value,
+            onCheckedChange = { checkedState.value = it }
+        )
+
+        val radioState = remember { mutableStateOf(true) }
+
+        Column(Modifier.selectableGroup()) {
+            RadioButton(
+                selected = radioState.value,
+                onClick = { radioState.value = true }
+            )
+            RadioButton(
+                selected = !radioState.value,
+                onClick = { radioState.value = false }
+            )
+        }
+
+        val langs = listOf("kotlin", "c#", "java", "python", "c++")
+        val (selectiedOption, onOptionSelected) = remember { mutableStateOf(langs[0]) }
+        Text(text = selectiedOption)
+        Column(Modifier.selectableGroup()) {
+            langs.forEach { text ->
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    RadioButton(
+                        selected = text == selectiedOption,
+                        onClick = { onOptionSelected(text) }
+                    )
+                    Text(text)
+                }
+            }
+        }
+    }
+}
+
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     _020525AndroidAppTheme {
-        SurfaceElement()
+        Components()
     }
 }
