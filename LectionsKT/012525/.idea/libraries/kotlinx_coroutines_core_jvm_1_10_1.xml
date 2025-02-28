@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="kotlinx-coroutines-core-jvm-1.10.1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../RMP-main/Resources/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.1/kotlinx-coroutines-core-jvm-1.10.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(541,5): warning MSB8029: Промежуточный каталог или каталог выхода не может располагаться во временном каталоге, потому что это может стать причиной проблем с добавочной сборкой.
+  022425ASMOutputInput.cpp
+  022425ASMOutputInput.vcxproj -> C:\Temp\.Ispp21\Lections\LectionsVS\022425ASMOutputInput\Debug\022425ASMOutputInput.exe

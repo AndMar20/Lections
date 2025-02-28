@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\.Ispp21\\Lections\\LectionsVS\\022425ASMOutputInput\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2597D31-1905-450E-9C71-F6FC73D6503F}|Project1\\Project1.vcxproj|C:\\Temp\\.Ispp21\\Lections\\LectionsVS\\022425ASMOutputInput\\Project1\\main.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B2597D31-1905-450E-9C71-F6FC73D6503F}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2AB0A47-A0FB-40CF-8C8C-49EDFC715E2D}|022425ASMOutputInput\\022425ASMOutputInput.vcxproj|C:\\Temp\\.Ispp21\\Lections\\LectionsVS\\022425ASMOutputInput\\022425ASMOutputInput\\022425ASMOutputInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B2AB0A47-A0FB-40CF-8C8C-49EDFC715E2D}|022425ASMOutputInput\\022425ASMOutputInput.vcxproj|solutionrelative:022425ASMOutputInput\\022425ASMOutputInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.asm",
+              "DocumentMoniker": "C:\\Temp\\.Ispp21\\Lections\\LectionsVS\\022425ASMOutputInput\\Project1\\main.asm",
+              "RelativeDocumentMoniker": "Project1\\main.asm",
+              "ToolTip": "C:\\Temp\\.Ispp21\\Lections\\LectionsVS\\022425ASMOutputInput\\Project1\\main.asm*",
+              "RelativeToolTip": "Project1\\main.asm*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-24T07:21:15.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "022425ASMOutputInput.cpp",
+              "DocumentMoniker": "C:\\Temp\\.Ispp21\\Lections\\LectionsVS\\022425ASMOutputInput\\022425ASMOutputInput\\022425ASMOutputInput.cpp",
+              "RelativeDocumentMoniker": "022425ASMOutputInput\\022425ASMOutputInput.cpp",
+              "ToolTip": "C:\\Temp\\.Ispp21\\Lections\\LectionsVS\\022425ASMOutputInput\\022425ASMOutputInput\\022425ASMOutputInput.cpp",
+              "RelativeToolTip": "022425ASMOutputInput\\022425ASMOutputInput.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-24T07:10:07.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

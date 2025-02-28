@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tfvRX8Xzydk=",
+  "success": true,
+  "projectFilePath": "C:\\Temp\\.Ispp21\\Lections\\LectionsVS\\022825LectionAutoGenerate\\ClassLibrary1\\SourceGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\221\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
+    "C:\\Users\\221\\.nuget\\packages\\microsoft.codeanalysis.common\\4.13.0\\microsoft.codeanalysis.common.4.13.0.nupkg.sha512",
+    "C:\\Users\\221\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\221\\.nuget\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
